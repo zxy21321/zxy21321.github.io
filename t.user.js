@@ -12,6 +12,8 @@
 // @grant        GM_xmlhttpRequest
 // @connect      translation.googleapis.com
 // @require      https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js
+// @updateURL      https://github.com/zxy21321/zxy21321.github.io/raw/main/t.user.js
+// @downloadURL    https://github.com/zxy21321/zxy21321.github.io/raw/main/t.user.js
 // ==/UserScript==
 
 (function() {
@@ -198,6 +200,7 @@
                 responseType:"json",
                 url: "https://translation.googleapis.com/language/translate/v2?source=" + sl + "&target=" + dl + "&key=AIzaSyByICNnjjnx0ZMTEQOmK7XZeC6sV7ecgnU&q=" + encodeURIComponent(txt),
                 onload: function(response) {
+                    console.log(response.response)
                     if(response.status == 200){
                         translate_string = response.response.data.translations[0].translatedText
                         GM_setValue(txt, {dl:dl, ts:translate_string})
@@ -389,7 +392,7 @@
             }
        }
         }catch(e){console.log(e)}
-    }, 500)
+    }, 1000)
 
     //Delay function
     var delay = (function(){
