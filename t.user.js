@@ -2,7 +2,7 @@
 // @name         WhatsApp翻译
 // @namespace    http://tampermonkey.net/
 // @homepage     https://greasyfork.org/zh-CN/scripts/28218-translator-for-whatsapp
-// @version      1.0.1
+// @version      1.0.2
 // @description  Translator for Whatsapp web
 // @author       Ze
 // @match        https://web.whatsapp.com/*
