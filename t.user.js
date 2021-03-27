@@ -2,7 +2,7 @@
 // @name         WhatsApp翻译
 // @namespace    http://tampermonkey.net/
 // @homepage     https://greasyfork.org/zh-CN/scripts/28218-translator-for-whatsapp
-// @version      1.0.2
+// @version      1.0.3
 // @description  Translator for Whatsapp web
 // @author       Ze
 // @match        https://web.whatsapp.com/*
@@ -328,7 +328,7 @@
 
             //console.log('found #pane-side');
 
-            var contacts = document.querySelector('div[role="region"]').children;
+            var contacts = document.querySelector('div[role="row"]').children;
             if(!contacts || contacts.length === 0){
                 showError('Not able to get the contacts sidebar');
                 return;
