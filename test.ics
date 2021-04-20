@@ -20,7 +20,7 @@ ATTACH:https://github.com/zxy21321/zxy21321.github.io/raw/main/read.me
 ATTACH:https://github.com/zxy21321/zxy21321.github.io/raw/main/500$4.jpg
 RRULE:FREQ=DAILY
 X-MOZ-LASTACK:20210420T195616Z
-DTSTART;TZID=Asia/Bangkok:20210421T034000
+DTSTART;TZID=Asia/Bangkok:20210421T042500
 DTEND;TZID=Asia/Bangkok:20210421T044000
 TRANSP:OPAQUE
 DESCRIPTION:点击链接领取红包 - https://google.com
