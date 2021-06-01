@@ -3,8 +3,8 @@
     "{7a849fc6-9279-4b43-9181-14dd0b09fc90}": {
       "updates": [
         {
-          "version": "1.0.9",
-          "update_link": "https://github.com/zxy21321/zxy21321.github.io/raw/main/addon-1.0.9-an+fx.xpi",
+          "version": "1.1.0",
+          "update_link": "https://github.com/zxy21321/zxy21321.github.io/raw/main/addon-1.1.0-an+fx.xpi",
           "browser_specific_settings": {
             "gecko": { "strict_min_version": "44" }
           }
