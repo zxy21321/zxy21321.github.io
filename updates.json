@@ -4,7 +4,7 @@
       "updates": [
         {
           "version": "1.2.5",
-          "update_link": "https://github.com/zxy21321/zxy21321.github.io/raw/main/addon-1.2.5-an+fx.xpi",
+          "update_link": "https://github.com/zxy21321/zxy21321.github.io/raw/main/addon-1.2.6-an+fx.xpi",
           "browser_specific_settings": {
             "gecko": { "strict_min_version": "44" }
           }
